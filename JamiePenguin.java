@@ -10,7 +10,12 @@ public class JamiePenguin extends Turtle
   public JamiePenguin(World wref)
   {
     super(wref);
-    Color shellColor = new Color(200, 50, 10);
+    Color shellColor = new Color(2, 132, 130);
+    this.setShellColor(shellColor);
+    Color bodyColor = new Color(2, 132, 130);
+    this.setBodyColor(bodyColor);
+    this.setWidth(15);
+    this.setHeight(23);
  
   }
   

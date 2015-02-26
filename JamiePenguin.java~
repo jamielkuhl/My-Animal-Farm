@@ -1,4 +1,6 @@
-public class JamiePenguin extends Penguin
+import java.awt.Color; 
+
+public class JamiePenguin extends Turtle
 { 
   /**
    * Constructor that takes a model display and adds
@@ -9,7 +11,7 @@ public class JamiePenguin extends Penguin
   {
     super(wref);
     Color shellColor = new Color(200, 50, 10);
-    this.setShellColor(shellColor);
+ 
   }
   
   /**
@@ -19,7 +21,7 @@ public class JamiePenguin extends Penguin
    * @param y the y pos
    * @param display the model display
    */
-  public ExampleTurtle(int x, int y, World wref)
+  public JamiePenguin(int x, int y, World wref)
   {
     super(x, y, wref);
   }

@@ -16,6 +16,15 @@ public class JamiePenguin extends Turtle
     this.setBodyColor(bodyColor);
     this.setWidth(15);
     this.setHeight(23);
+    this.forward(150);
+    this.turnRight();
+    this.forward(75);
+    this.turnRight();
+    this.forward(75);
+    this.turnRight();
+    this.forward(75);
+    this.turnRight();
+    this.forward(75);
  
   }
   

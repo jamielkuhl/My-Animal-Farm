@@ -1,8 +1,0 @@
-public class Farm
-{
-  public static vaid main(String[] a)
-  {
-    World wref=new World();
-    Seahorse=new Seahorse(wref);
-  }
-}

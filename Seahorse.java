@@ -10,8 +10,13 @@ public class Seahorse extends Turtle
   public Seahorse(World wref)
   {
     super(wref);
-    Color shellColor = new Color(0, 255,255);
-    
+    Color shellColor = new Color(155,48,255);
+    this.setShellColor(shellColor);
+     Color bodyColor = new Color(155,48,255);
+    this.setBodyColor(bodyColor);
+    Picture pic = new Picture("orange-seahorse-tattoo-sample.jpg");
+this.hide();
+this.setPicture(pic);
   }
   
   /**
